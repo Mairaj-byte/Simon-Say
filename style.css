@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: #222;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px #000;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.line-one,
+.line-two {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  cursor: pointer;
+  opacity: 0.85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.red {
+  background: #dc3545;
+}
+
+.yellow {
+  background: #ffc107;
+  color: #000;
+}
+
+.green {
+  background: #28a745;
+}
+
+.purple {
+  background: #6f42c1;
+}
+
+/* 🔹 Responsive: shrink buttons on smaller screens */
+@media (max-width: 600px) {
+  .btn {
+    width: 90px;
+    height: 90px;
+    font-size: 1.2rem;
+  }
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
