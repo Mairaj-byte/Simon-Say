@@ -1,0 +1,5 @@
+# Simon-Say
+A simple Simon Says Game built using HTML, CSS, and JavaScript. This project is designed to improve memory skills by challenging players to follow and repeat color patterns. Developed as a learning project to strengthen understanding of JavaScript event handling, DOM manipulation, and game logic implementation.
+
+# Teacher 
+Shrada Khapra
